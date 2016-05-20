@@ -17,7 +17,7 @@ for i in user_input:
         count += 1
     elif i == ")":
         count -= 1
-
+    # if count is less that 0 it means that quantity of closing parenthesis are greater than opening, so matched will be False 
     if count < 0:
         matched = False
         
