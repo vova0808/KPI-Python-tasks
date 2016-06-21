@@ -1,4 +1,10 @@
 def count_holes(n):
+    """
+        Function, that takes one argument as it's input - an integer or a string, that represent that integer
+        Return integer, that represent number of holes in decimal representation of it number
+        Consider, that  4 and 0 both has one hole
+        If argument not a number or haven't any holes, return ERROR
+    """
     count = 0
     
     lst= []
