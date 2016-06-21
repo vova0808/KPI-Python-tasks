@@ -1,5 +1,5 @@
 """
-Program, that is lookong for 'happy' tickets.
+Program, that is looking for 'happy' tickets.
 'Happy' ticket is a trolley bus ticket, in which sum of first three numbers is
 equal to the sum of last three numbers.
 Input data: two integers, command line arguments, 0<=a1<=a2<=999999
